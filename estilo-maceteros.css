@@ -1,0 +1,52 @@
+body{
+    height: auto;
+}
+.card{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(253, 187, 116);
+}
+article h2{
+    text-align: center;
+    padding: 20px;
+}
+header{
+    height: 80px;
+    z-index: 100;
+}
+@media (min-width: 750px){
+    .titulo-1{
+        font-size: 50px;
+    }
+    .articulo{
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+    }
+    div{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    margin: 10px auto 0 auto;   
+    }
+.card-title{
+text-align: center;
+font-size: 30px;
+}
+.card{
+    display: flexbox;
+flex-direction:row;
+align-items: center;
+min-width: 800px;
+border-radius: 50px;
+border: 0px;
+}
+.card img{
+  padding: 25px;
+  border-radius: 50px;
+}
+.card-body p{
+margin: 5px;
+}
+}

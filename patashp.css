@@ -1,0 +1,17 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+.imagen{
+    width: 30.5%;
+}
+.imagen img{
+    width: 100%;
+}
+.texto{
+    width: 30%;
+    background-color: rgb(0, 0, 0, 0.5);
+}.texto p{
+    color: beige;
+    display: none;
+}
