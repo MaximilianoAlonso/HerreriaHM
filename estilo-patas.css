@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -9,6 +11,9 @@ body{
     align-items: center;
     text-align: center;
 }
+.iconomenu{
+    width: 52px;
+}
 p{
     margin: 10px auto 10px auto;
 }
@@ -18,6 +23,9 @@ p{
 }
 .articulo ul li{
     margin-left: -50px;
+}
+img{
+    width: 50%;
 }
 @media (min-width: 750px){
     .articulo img{
@@ -34,4 +42,10 @@ p{
 ul li{
     font-size: 25px;
 }
+
+    .articulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin: 0 0 0 0 ;}
 }

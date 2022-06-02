@@ -1,7 +1,11 @@
 body{
     height: auto;
+    
+   
 }
 .card{
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     border-radius: 5px;
     border: 0px;
@@ -11,6 +15,11 @@ article h2{
     text-align: center;
     padding: 20px;
 }
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 header{
     height: 80px;
     z-index: 100;
@@ -19,11 +28,9 @@ header{
     .titulo-1{
         font-size: 50px;
     }
-    .articulo{
-        display: flexbox;
-        align-items: center;
-        justify-content: center;
-    }
+   
+    
+    
     div{
         align-items: center;
         justify-content: center;
@@ -35,9 +42,10 @@ text-align: center;
 font-size: 30px;
 }
 .card{
-    display: flexbox;
+    display: flex;
 flex-direction:row;
 align-items: center;
+justify-content: center;      
 min-width: 800px;
 border-radius: 50px;
 border: 0px;
@@ -47,6 +55,15 @@ border: 0px;
   border-radius: 50px;
 }
 .card-body p{
-margin: 5px;
+margin: 5px;}
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 45%;}
+
+    section{
+        margin: 0 auto 0 auto;
 }
 }
