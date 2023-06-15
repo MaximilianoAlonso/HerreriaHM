@@ -9,7 +9,12 @@ body{
     margin-top: 10px;
     border-radius: 5px;
     border: 0px;
-    background-color: rgb(253, 187, 116);
+    color: black;
+    font-weight: 400;
+    background-color: rgb(253, 187, 116,0.7);
+}
+.card img{
+    width: 100%;
 }
 article h2{
     text-align: center;
@@ -20,6 +25,10 @@ article h2{
     align-items: center;
     justify-content: center;
 }
+.titulo-1{
+    color: white;
+    font-weight: 800;
+}
 header{
     height: 80px;
     z-index: 100;
@@ -27,9 +36,12 @@ header{
 @media (min-width: 750px){
     .titulo-1{
         font-size: 50px;
+        color: white;
     }
-   
-    
+    .card img{
+        width: 50%;
+    }
+  
     
     div{
         align-items: center;
@@ -66,4 +78,5 @@ margin: 5px;}
     section{
         margin: 0 auto 0 auto;
 }
+
 }

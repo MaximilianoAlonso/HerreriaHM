@@ -15,11 +15,39 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(73, 122, 246, 0.5);
+    margin: 20px;    border-radius: 10px;
 }
 .mesitas img{
     width: 70%;
-    margin:5px
+    margin:5px;
    
+   
+}
+.muebles-article{
+    background-color: rgba(73, 122, 246, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+}
+.muebles h3{
+    background-color: rgba(73, 122, 246, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(6, 6, 6);
+}
+.muebles h4{
+   letter-spacing: 2px;
+   text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 900;
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 9px  rgb(0, 0, 0);
+}
+.muebles-article p{
+ color: white;
 }
 @media (min-width: 750px){
    

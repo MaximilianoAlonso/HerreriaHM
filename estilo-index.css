@@ -3,9 +3,12 @@
   box-sizing: border-box;
 }
 body {
- background-image: url(https://img.freepik.com/foto-gratis/conjunto-herramientas-brillo-fuego-taller-herreria-oscura_613910-3430.jpg);
+ background-image: url(https://comunidadcdmx.com/wp-content/uploads/2020/11/soldadura-acero-curso-de-herrero.jpg);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
  background-position: center; 
-background-size:contain;
+
 
   margin: 0;
   padding: 0;
@@ -141,7 +144,7 @@ justify-content: center;
     justify-content: center;
 }
 .textoimagen{
-    background-color: rgba(47, 96, 219,0.8);
+    background-color: rgba(73, 122, 246, 0.5);
     color: white;
     padding: 25px;
     border-radius: 10px;
