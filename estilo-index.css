@@ -8,7 +8,7 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center; 
-
+width: auto;
 
   margin: 0;
   padding: 0;
@@ -267,7 +267,7 @@ justify-content: center;
     width: 60px;
     position: fixed;
     right: 5px;
-    bottom: 90px;
+    bottom: 50px;
   }
   #menumovil {
     display: none;

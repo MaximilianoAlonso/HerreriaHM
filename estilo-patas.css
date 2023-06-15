@@ -31,10 +31,18 @@ img{
    /*  background-color: rgb(43, 83, 226, 0.7 ); */
     color: white;
     font-size: 15px;
+    background-color: rgb(43, 83, 226, 0.5  );
 }
 .listaPatas li{
-
+ 
     font-size: 20px;
+
+}
+p{
+    font-size: 30px;
+    width: 50%;
+    color: aliceblue;
+    background-color: rgb(43, 83, 226, 0.5  );
 }
 
 p{
@@ -45,6 +53,11 @@ p{
     text-shadow: 1px 1px 5px black;
  
 }
+.info-footer p {
+    background: none !important;
+    font-size: 18px;
+}
+   
 @media (min-width: 750px){
     .articulo img{
         width: 30%;
@@ -55,12 +68,21 @@ p{
 }
 p{
     font-size: 30px;
+    width: 70%;
+    padding: 10px;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+ 
+}
+p{
+    font-size: 30px;
     width: 50%;
     color: aliceblue;
     background-color: rgb(43, 83, 226, 0.5  );
 }
 ul li{
     font-size: 25px;
+    background: none;
 }
 
     .articulo{
@@ -68,4 +90,8 @@ ul li{
         align-items: center;
         justify-content: center;
        margin: 0 0 0 0 ;}
+}
+.info-footer p {
+ background: none !important;
+ font-size: 20px;
 }
