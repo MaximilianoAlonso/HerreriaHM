@@ -1,251 +1,288 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  box-sizing: border-box;
 }
-body{
-background-color: rgb(241, 164, 81);
-margin:0;
-padding:0;
-font-family: 'Lato', sans-serif;
-}
-header{
-    height: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: black;
-    align-items: center;
-    box-shadow: 1px 5px 12px 6px rgba(0,0,0,1);
-    -webkit-box-shadow: 1px 5px 12px 6px rgba(0,0,0,1);
-    -moz-box-shadow: 1px 5px 12px 6px rgba(0,0,0,1);
-}
-                .titulo{
-                color: rgb(255, 255, 255);
-                letter-spacing: 4px;
-                font-size: 30px; 
-                align-items: center;         
-                }
-           .titulo a{
-               color: rgb(255, 255, 255);
-                text-decoration: none;
-            }
-                    .nav-bar{
-                        display: flex;
-                        align-items: center;
-                    }
-                    .iconomenu{
-                        display: none;
-                    }
-                            .menu{
-                            display: flex;
-                            }
+body {
+ background-image: url(https://img.freepik.com/foto-gratis/conjunto-herramientas-brillo-fuego-taller-herreria-oscura_613910-3430.jpg);
+ background-position: center; 
+background-size:contain;
 
-    li{
-        list-style: none;
-        align-items: center;
-    }
-    li a{
-        color: white;
-        font-size: 15px;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 0 6px 0 6px;
-        
-    }
-    li a:hover{
-        background-color: rgb(34, 34, 34);
-
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
-.articulo{
-padding: 10px 100px 0 100px;
+header {
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  box-shadow: 1px 5px 12px 6px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 5px 12px 6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 5px 12px 6px rgba(0, 0, 0, 1);
+}
+.titulo {
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-size: 30px;
+  align-items: center;
+}
+.titulo a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+.iconomenu {
+  display: none;
+}
+.menu {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  align-items: center;
+}
+li a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 6px 0 6px;
+}
+li a:hover {
+  background-color: rgb(34, 34, 34);
+}
+.articulo {
+  padding: 10px 100px 0 100px;
+}
+.presentacion {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+ul span {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.textoizq {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  min-width: 200px;
+}
+.imagenderecha {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  min-width: 300px;
+}
+.imagenderecha img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 100px;
+  max-width: 600px;
+}
+h2 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+p {
+  margin: -20px 0 45px 0;
+  font-size: 20px;
+}
+.cont-whatsapp img {
+  width: 80px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+footer {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px auto 0 auto;
+}
+.menu-footer ul li {
+  text-align: right;
+  padding-top: 15px;
+}
+.info-footer p {
+  text-align: left;
+  padding: 0;
+  margin: 8px;
 }
 .presentacion{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;    
-    }
-
-ul span{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-
+    padding: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 .textoizq{
-    text-align: center;
-    width: 50%;
-    padding: 20px;
-   min-width: 200px
-}
-.imagenderecha{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-align: center;
-    min-width: 300px;
-    
-}
-.imagenderecha img{
-display: flex;
-align-items:center ;
-    text-align: center;
-   width: 100%;
-   min-width: 100px;
-   max-width: 600px;
-}
-h2{
-    font-size: 25px;
-    padding-bottom: 10px;
-}
-p{
-    margin: -20px 0 45px 0;
-    font-size: 20px;}
-    .cont-whatsapp img{
-        width: 80px;
-        position: fixed;
-        bottom: 50px;
-        right: 50px;
-    }
-footer{
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    color:rgb(255, 255, 255);
-    align-content: center;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-margin: 10px auto 0 auto;   
- }
-.menu-footer ul li{
-    text-align: right;
-    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.info-footer p{
-    text-align: left;
-    padding: 0;
-    margin: 8px;
+.textoimagen{
+    background-color: rgba(47, 96, 219,0.8);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.textoimagen p{
+   padding-top: 10px;
+}
+.presentacion img {
+    margin: 10px 0;
+
+}
+.desayunador{
+    margin-top: 0;
+
 }
 
-@media (max-width: 750px){
-
-
-.menu li{
+@media (max-width: 750px) {
+  .menu li {
     padding: 15px;
     width: 100%;
-    }
+  }
 
-    li a:hover{
-        background-color: rgb(19, 4, 36);
-    }
-    li:hover{
-        background-color: rgb(19, 4, 36);
-    }
+  li a:hover {
+    background-color: rgb(19, 4, 36);
+  }
+  li:hover {
+    background-color: rgb(19, 4, 36);
+  }
 
+  .menu span {
+    display: none;
+  }
 
-     .menu span{display: none}
+  header {
+    justify-content: center;
+    width: 100%;
+  }
 
-        header{
-                justify-content:center;
-                width: 100%;
-                }
+  body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 
-        body{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content:center;
-             }
+  .nav-bar {
+    z-index: 100;
+    background-color: rgb(35, 6, 68);
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    box-shadow: 0px 6px 40px 11px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 0px 6px 40px 11px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 0px 6px 40px 11px rgba(0, 0, 0, 0.77);
+  }
 
-        .nav-bar{
-            z-index: 100;
-        background-color: rgb(35, 6, 68);
-            display: flex;
-            width: 100%;
-            position: absolute;
-            left:0px;
-            top: 80px;
-            box-shadow: 0px 6px 40px 11px rgba(0,0,0,0.77);
-            -webkit-box-shadow: 0px 6px 40px 11px rgba(0,0,0,0.77);
-            -moz-box-shadow: 0px 6px 40px 11px rgba(0,0,0,0.77);
-             }
+  .menu a {
+    font-size: 20px;
+  }
 
-             .menu a{font-size: 20px;}
+  .iconomenu {
+    display: block;
+    height: 45px;
+    position: absolute;
+    left: 10px;
+    padding: 2px;
+    pointer-events: fill;
+  }
 
-        
-             .iconomenu{
-             display: block;
-             height: 45px;
-             position: absolute;
-             left: 10px;
-             padding: 2px;
-             pointer-events: fill;
-             }
-         
-        .textomenu{
-            display: none;
-            width: 100%;
-            color: rgb(255, 255, 255);
-            font-size: 25px;
-            background-color: black;
-        }
-                
-    .articulo{ padding: 10px 10px 0 10px}
-    
-     .textoizq{width: 100%}
-    
-    .imagenderecha{
-        position: relative;
-        top: 1px;
-        width: 100%}
+  .textomenu {
+    display: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: black;
+  }
 
-    .presentacion{padding-top: 25px;}
+  .articulo {
+    padding: 10px 10px 0 10px;
+  }
 
-    footer{
-        flex-direction: column;
-        text-align: center;
-        width: auto;
-         }
- footer li a:hover{
-        background-color: rgb(0, 0, 0);}
+  .textoizq {
+    width: 100%;
+  }
 
-    .menu-footer ul li{
-        text-align: center  ;
-        margin-top: 15px;
-        margin-left: -30px;
-    }
-    
-    .info-footer p{
-        text-align: center;
-        padding: 0;
-        margin: 8px;
-        font-size: 20px;
-}
-.cont-whatsapp img{
+  .imagenderecha {
+    position: relative;
+    top: 1px;
+    width: 100%;
+  }
+
+  .presentacion {
+    padding-top: 25px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+  }
+  footer li a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .menu-footer ul li {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: -30px;
+  }
+
+  .info-footer p {
+    text-align: center;
+    padding: 0;
+    margin: 8px;
+    font-size: 20px;
+  }
+  .cont-whatsapp img {
     width: 60px;
-    position:fixed;
+    position: fixed;
     right: 5px;
     bottom: 90px;
-}
-#menumovil{
+  }
+  #menumovil {
     display: none;
-}
-.enconstruccion{
+  }
+  .enconstruccion {
     display: flex;
     width: 80%;
     margin: 40px auto 40px auto;
-
-}
-.textoimagen{
+  }
+  .textoimagen {
     text-align: center;
     padding-top: 25px;
-}
-h6{
+  }
+  h6 {
     text-align: center;
     color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-  margin: 10px 25px;
-  padding: 20px;
-}
+    background-color: rgb(0, 0, 0);
+    margin: 10px 25px;
+    padding: 20px;
+  }
 }
