@@ -1,0 +1,8 @@
+.construccion{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.construccion img{
+opacity: 0.7;
+}
