@@ -16,6 +16,7 @@ body{
 }
 p{
     margin: 10px auto 10px auto;
+    width: 100%;
 }
 .articulo img{
     width: 100%;
@@ -47,7 +48,7 @@ p{
 
 p{
     font-size: 30px;
-    width: 70%;
+    width: 100%;
     padding: 10px;
     color: aliceblue;
     text-shadow: 1px 1px 5px black;
